@@ -3,7 +3,7 @@
 </h1>
 
 1. YOU MUST BE CONNECTED TO USC GUEST WIFI
-  Send post requests to http://SERVERNAME:8080/
+  Send post requests to http://10.120.126.50:8080/
   The SERVERNAME will be anounced at the event.
 
   1. First create an account(new user) by sending a post request to /user/new with email, password, and username
