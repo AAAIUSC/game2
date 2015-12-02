@@ -53,15 +53,15 @@
 ##6. Bomb will explode if it touches "X", "1" or "2". It will dispear if it does not hit any of those by end of its path.
 
 ##7. Sample Output
-###*Game Started:kappa1 vs kappa Game Num:0
-###*Sight
-###*1OOVO
-###*OOOXX
-###*XOOOX
-###*ROOOR
-###*OORXR
-###*Distance:38
-###*Location:(0,0)
-###*r2s3n2m2v4
+###Game Started:kappa1 vs kappa Game Num:0
+###Sight
+###1OOVO
+###OOOXX
+###XOOOX
+###ROOOR
+###OORXR
+###Distance:38
+###Location:(0,0)
+###r2s3n2m2v4
 
 ##8. Server will process 1 request every 15 seconds
