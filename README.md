@@ -37,16 +37,16 @@
   ### distance: a non-negative integer.
 
 ##5. Map is a 20*20 grid. (0,0) is top left and (19, 19) is bottom right. Each cell is a variable:
-  ###"1": Player 1.
-  ###"2": Player 2.
-  ###"0": empty.
-  ###"X": Obstacle.
-  ###Objects:
-  ###"N": Number of bombs ++. 
-  ###"S": Speed(distance) of bomb ++.
-  ###"M": Move ++.
-  ###"V": Vision ++.
-  ###"R": Radius ++.
+  ### "1": Player 1.
+  ### "2": Player 2.
+  ### "0": empty.
+  ### "X": Obstacle.
+  ### Objects:
+  ### "N": Number of bombs ++. 
+  ### "S": Speed(distance) of bomb ++.
+  ### "M": Move ++.
+  ### "V": Vision ++.
+  ### "R": Radius ++.
 
   You can pick up the Objects by walking over them(no need to stop at it).
 
