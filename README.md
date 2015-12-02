@@ -32,9 +32,9 @@
   
   * curl --data "username=kappa&password=qw&move=S&direction=R&distance=2" http://10.120.126.50:8080/game/move
 
-  move: S is "shoot" a bomb. M is move your hero.
-  direction: U(up), D(down), L(left), R(right).
-  distance: a non-negative integer.
+  ### move: S is "shoot" a bomb. M is move your hero.
+  ### direction: U(up), D(down), L(left), R(right).
+  ### distance: a non-negative integer.
 
 ##5. Map is a 20*20 grid. (0,0) is top left and (19, 19) is bottom right. Each cell is a variable:
   ###"1": Player 1.
