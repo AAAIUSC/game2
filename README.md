@@ -8,11 +8,11 @@
 
   1. First create an account(new user) by sending a post request to /user/new with email, password, and username
 
-    * curl --data "username=kappa&password=qw&email=yourEmail@yahoo.com" http://SERVERNAME:8080/user/new
+    * curl --data "username=kappa&password=qw&email=yourEmail@yahoo.com" http://10.120.126.50:8080/user/new
 
   2. Afterwards, you configure your hero.
 
-    * curl --data "username=kappa&password=qw&email=daea3@yahoo.com&radius=1&speed=1&number=0&move=0&vision=3" http://localhost:8080/user/config
+    * curl --data "username=kappa&password=qw&email=daea3@yahoo.com&radius=1&speed=1&number=0&move=0&vision=3" http://10.120.126.50:8080/user/config
 
     There are starting values for the attributes, and sum of all the additional attributes is 5.
     Radius: Radius of the bomb explosion. Default is 0.
@@ -28,11 +28,11 @@
 
 2. Join a game by sending a request to /game/join with parameters username and password.
   
-  * curl --data "username=kappa&password=qw" http://SERVERNAME:8080/game/join
+  * curl --data "username=kappa&password=qw" http://10.120.126.50:8080/game/join
   
 3. Move your hero by sending a request to /game/move with parameters username, password, move, direction, and distance.
   
-  * curl --data "username=kappa&password=qw&move=S&direction=R&distance=2" http://localhost:8080/game/move
+  * curl --data "username=kappa&password=qw&move=S&direction=R&distance=2" http://10.120.126.50:8080/game/move
 
   move: S is "shoot" a bomb. M is move your hero.
   direction: U(up), D(down), L(left), R(right).
